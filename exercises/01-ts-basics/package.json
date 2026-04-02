@@ -1,0 +1,20 @@
+{
+  "name": "01-ts-basics",
+  "version": "1.0.0",
+  "description": "练习的目标是：用 TypeScript 定义稳定的数据契约（`TaskInput` / `TaskResult` / 结构化任务对象），并实现一个函数把**自然语言任务**转换为结构化对象。",
+  "main": "index.js",
+  "scripts": {
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "run:mock": "tsx run-mock.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.2"
+  }
+}
